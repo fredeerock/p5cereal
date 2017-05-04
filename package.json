@@ -1,7 +1,7 @@
 {
   "name": "p5cereal",
   "description": "Helps setup serial communication between p5.js and Arduino.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "postinstall": "node scripts/install.js",
     "start": "concurrently \"node node_modules/p5.serialserver/startserver.js\" \"node scripts/run.js\""
