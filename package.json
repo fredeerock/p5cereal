@@ -1,5 +1,5 @@
 {
-  "name": "serialServer",
+  "name": "p5cereal",
   "description": "Helps setup serial communication between p5.js and Arduino.",
   "version": "1.0.0",
   "scripts": {
