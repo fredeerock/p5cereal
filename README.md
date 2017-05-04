@@ -1,12 +1,12 @@
-#p5cereal
+# p5cereal
 
 This node module helps build a scaffold for setting up serial communication between p5.js and Arduino. It creates a simple p5 website and Arduino sketch and also serves up the content via a local web server. Live reload is also included to help ease the development process. 
 
-###Dependencies
+### Dependencies
 
 To start you'll need to [install Node.js](https://nodejs.org/en/download/) if you don't already have it. 
 
-###Usage
+### Usage
 
 If you're creating a new project you can run the following command to build out your directories and download the latest libraries:
 
