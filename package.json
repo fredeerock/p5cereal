@@ -1,0 +1,17 @@
+{
+  "name": "serialServer",
+  "description": "Helps setup serial communication between p5.js and Arduino.",
+  "version": "1.0.0",
+  "scripts": {
+    "postinstall": "node scripts/install.js",
+    "start": "concurrently \"node node_modules/p5.serialserver/startserver.js\" \"node scripts/run.js\""
+  },
+  "dependencies": {
+    "concurrently": "^3.4.0",
+    "filed": "^0.1.0",
+    "inject-lr-script-stream": "^1.1.1",
+    "livereload": "^0.6.2",
+    "p5.serialserver": "0.0.24",
+    "request": "^2.81.0"
+  }
+}
